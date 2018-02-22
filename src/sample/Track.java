@@ -85,7 +85,6 @@ public class Track {
      */
     private EqualizerBand getEqBand() {
         double freq = getFreq();
-        //Q=3,73
         return new EqualizerBand(freq, freq /Q, gain);
     }
 
